@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+		
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDxzQqGoVzPsoUJ6k-SD_GtdSwHpgnSwPk"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<link rel="stylesheet" href="css/jquery-ui-1.8.18.custom.css"/>
+		<link rel="stylesheet" href="css/style.css" >
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  </head>
+    <body >
+		<!--<select id="item" class="form-control">
+			<option value="cafe">Cafe</option>
+			<option value="restaurant">Restaurant</option>
+			<option value="food">Food</option>
+			<option value="store">Store</option>
+			<option value="point_of_interest">Point of interest</option>
+			<option value="establishment">Establishment</option>
+			<option value="meal_takeaway">Meal Takeaway</option>
+			<option value="hospital">Hospital</option>
+			<option value="health">Health</option>
+		</select>-->          
+			<table class="table" height="100%" width="100%">
+				<tr>
+					<td>					
+						<div class="status-bar">
+							<input type="text" id="item" class="form-control" placeholder="search keyword"/><br>
+							<input type="text" id="autocomplete" class="form-control" placeholder="enter location"><br>
+							<button class = "btn btn-success my-location">My Location</button>&nbsp;
+							<button class = "btn btn-success btn-map">Search</button>
+						</div>
+						<div id="map" >
+						</div>
+					</td>
+				</tr>
+			</table>
+    </body>
+</html>
